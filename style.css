@@ -1,0 +1,436 @@
+* {
+    /* background-color: white; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background: rgba(232, 232, 230, .4);
+}
+
+.navbar {
+    height: 44px;
+    /* background-color: #fafafccc; */
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    align-items: center;
+    display: flex;
+
+    logo {
+        height: 50px;
+        width: 30px;
+
+    }
+
+    a {
+        margin: 0 8px;
+        font-size: 12px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+}
+
+.main-container {
+    min-height: 248px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.row {
+    max-width: 680px;
+
+}
+
+.shop-header {
+    /* display: inline; */
+    font-family: SF Pro Display,
+        SF Pro Icons,
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    line-height: 1.0834933333;
+    color: #6e6e73;
+
+    h1 {
+        color: #1d1d1f;
+        font-size: 48px;
+        display: inline;
+    }
+
+    div {
+        display: inline;
+    }
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+.shop-chat-section {
+    display: flex;
+
+
+    .shop-tittle {
+
+        font-weight: 500;
+        font-size: 15px;
+        font-family: SF Pro Text,
+            SF Pro Icons,
+            Helvetica Neue,
+            Helvetica,
+            Arial,
+            sans-serif;
+        letter-spacing: -.016em;
+        line-height: 1.4285914286;
+        padding-bottom: 1px;
+    }
+
+
+    .shop-img {
+        height: 36px;
+        padding-inline-end: 8px;
+        width: 50px;
+    }
+
+}
+
+.svg-container {
+    display: flex;
+    padding-top: 20px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 16px;
+
+    svg {
+        height: 36px;
+        width: 45px;
+        padding-inline-end: 9px;
+    }
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 300px;
+    padding-bottom: 100px;
+    margin-inline-start: calc(-268.46154px + 28.36538vw);
+
+    .nav-img {
+        width: 120px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: #1d1d1f;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.heading {
+    display: flex;
+    margin-inline-start: calc(-268.46154px + 28.36538vw);
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+
+    p {
+        color: #6e6e73;
+    }
+}
+
+.main-box {
+    margin-top: 20px;
+    margin-inline-start: calc(-268.46154px + 28.36538vw);
+    margin-bottom: 20px;
+}
+
+.list-card {
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-around;
+
+    .caption {
+        position: relative;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+        h3 {
+            position: absolute;
+            top: 6%;
+            left: 8%;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        h2 {
+            position: absolute;
+            top: 11%;
+            left: 8%;
+            color: #fff;
+        }
+
+        p {
+            position: absolute;
+            top: 18%;
+            left: 8%;
+            color: #fff;
+            font-size: 17px;
+            font-weight: 400;
+        }
+    }
+
+    .img-pic {
+        width: 400px;
+        height: 500px;
+
+        img {
+            border-radius: 2.5%;
+            width: 100%;
+        }
+    }
+}
+
+.cap {
+    position: relative;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    h3 {
+        position: absolute;
+        top: 6%;
+        left: 8%;
+        color: #1d1d1f;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    h2 {
+
+        position: absolute;
+        top: 11%;
+        left: 8%;
+        color: #1d1d1f;
+    }
+
+    p {
+        position: absolute;
+        top: 25%;
+        left: 8%;
+        color: #1d1d1f;
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+}
+
+.msg {
+    margin-top: 50px;
+    margin-inline-start: calc(-268.46154px + 28.36538vw);
+
+    .msg-header {
+        display: inline;
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+
+    }
+
+    .msg-m {
+        font-size: 28px;
+        font-weight: 600;
+        color: #6e6e73;
+    }
+
+}
+
+.ask-specialist {
+    display: flex;
+    overflow: hidden;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-inline-start: calc(-268.46154px + 28.36538vw);
+    cursor: pointer;
+
+    .empty {
+
+        display: inline-block;
+        position: relative;
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+        img {
+            border-radius: 28px;
+            width: 28.2352941176rem;
+            box-shadow: 2px 4px 22px #00000014;
+            white-space: normal;
+
+        }
+
+        h3 {
+            position: absolute;
+            top: 7%;
+            left: 8%;
+            font-size: 12px;
+            font-weight: 600;
+            color: #6e6e73;
+        }
+
+        h2 {
+            position: absolute;
+            top: 12%;
+            left: 8%;
+            color: #1d1d1f;
+            font-size: 23px;
+            font-weight: 750;
+        }
+
+    }
+
+    h4 {
+        position: absolute;
+        top: 7%;
+        left: 8%;
+        color: #1d1d1f;
+        font-size: 21px;
+        font-weight: 700;
+    }
+
+    p {
+        position: absolute;
+        top: 20%;
+        left: 8%;
+        color: #6e6e73;
+    }
+
+    .one {
+        h1 {
+            position: absolute;
+            top: 9%;
+            left: 8%;
+            color: #1d1d1f;
+            font-size: 20px;
+            font-weight: 750;
+        }
+
+    }
+
+    .two {
+        h1 {
+            position: absolute;
+            top: 60%;
+            left: 8%;
+            color: #1d1d1f;
+            font-size: 23px;
+            font-weight: 750;
+        }
+
+    }
+}
+
+.empty:hover {
+    box-shadow: 22px 44px 22px #00000014;
+
+}
+
+.box-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-inline-start: calc(-268.46154px + 28.36538vw);
+
+
+    .box {
+        width: 310px;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 30px 30px;
+        box-shadow: 22px 44px 22px #00000014;
+
+
+    }
+
+    .icon {
+        font-size: 25px;
+        background-color: #fff;
+        color: #68cc45;
+        fill: #68cc45;
+    }
+
+    .icon2 {
+        font-size: 25px;
+        color: #007aff;
+        fill: #007aff;
+    }
+
+    /* font-weight: 100; */
+}
+
+
+
+
+.icon-msg {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+    line-height: 1.1666666667;
+
+
+
+    .highlight {
+        color: #68cc45;
+        fill: #68cc45;
+    }
+}
+
+
+
+.icon-msg2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+    line-height: 1.1666666667;
+
+    .highlight {
+        color: #007aff;
+        fill: #007aff;
+    }
+}
