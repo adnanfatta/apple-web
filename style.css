@@ -135,10 +135,10 @@ a {
 
 .nav-container {
     display: flex;
-    justify-content: center;
+    height: 150px;
+    justify-content: space-evenly;
     gap: 20px;
-    flex-wrap: wrap;
-    height: 300px;
+    overflow-x: auto;
     padding-bottom: 100px;
     margin-inline-start: calc(-268.46154px + 28.36538vw);
 
@@ -170,6 +170,7 @@ a {
     font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: 600;
+    margin-top: 20px;
 
     p {
         color: #6e6e73;
@@ -180,11 +181,15 @@ a {
     margin-top: 20px;
     margin-inline-start: calc(-268.46154px + 28.36538vw);
     margin-bottom: 20px;
+
 }
 
+
 .list-card {
+    overflow: hidden;
+    overflow-x: auto;
     display: flex;
-    /* gap: 20px; */
+    gap: 20px;
     justify-content: space-around;
 
     .caption {
@@ -214,7 +219,62 @@ a {
             color: #fff;
             font-size: 17px;
             font-weight: 400;
+
         }
+
+        .es {
+
+            position: absolute;
+            top: 25%;
+            left: 8%;
+            color: #fff;
+            font-size: 17px;
+            font-weight: 400;
+
+
+        }
+    }
+
+    .cap {
+        position: relative;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+        h3 {
+            position: absolute;
+            top: 6%;
+            left: 8%;
+            color: #1d1d1f;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        h2 {
+
+            position: absolute;
+            top: 11%;
+            left: 8%;
+            color: #1d1d1f;
+        }
+
+        p {
+            position: absolute;
+            top: 25%;
+            left: 8%;
+            color: #1d1d1f;
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        .es {
+            position: absolute;
+            top: 20%;
+            left: 8%;
+            color: #1d1d1f;
+            font-size: 17px;
+            font-weight: 400;
+
+        }
+
     }
 
     .img-pic {
@@ -228,37 +288,6 @@ a {
     }
 }
 
-.cap {
-    position: relative;
-    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
-
-    h3 {
-        position: absolute;
-        top: 6%;
-        left: 8%;
-        color: #1d1d1f;
-        font-size: 12px;
-        font-weight: 600;
-    }
-
-    h2 {
-
-        position: absolute;
-        top: 11%;
-        left: 8%;
-        color: #1d1d1f;
-    }
-
-    p {
-        position: absolute;
-        top: 25%;
-        left: 8%;
-        color: #1d1d1f;
-        font-size: 17px;
-        font-weight: 400;
-    }
-
-}
 
 .msg {
     margin-top: 50px;
@@ -282,7 +311,7 @@ a {
 
 .ask-specialist {
     display: flex;
-    overflow: hidden;
+    overflow-x: auto;
     margin-top: 30px;
     justify-content: space-evenly;
     gap: 20px;
